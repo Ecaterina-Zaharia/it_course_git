@@ -49,6 +49,5 @@ public class StandardFunctionalInterfaces {
         String result2 = truncator.apply("Hello", 20);
         System.out.println("Truncator string2: " + result2);
 
-
     }
 }
