@@ -217,5 +217,7 @@ public class Main {
         newHushset = (HashSet) hashSet4.clone();
         System.out.println(newHushset);
 
+        System.out.println("--------");
+
     }
 }
