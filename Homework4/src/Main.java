@@ -46,6 +46,10 @@ public class Main {
         Arrays.sort(a);
         System.out.println("min " + a[0] + " max " + a[a.length - 1]);
 
+        // 4. Write a Java program to find the maximum and minimum value of an array.
+        //// hint: initialize the minimum with a very big number, and the maximum
+        // with a very small value.
+
         //5. Write a Java program to reverse an array of integer values.
 
         int[] my_array1 = {1688, 1924,1788, 1345, 1902,
@@ -117,3 +121,11 @@ public class Main {
         }
 
         // 9. Print the elements from the main diagonal in a matrix.
+
+        // 10. Print the elements from the secondary diagonal in a matrix.
+
+        // 11. Print the sum of the elements above the main diagonal
+        // (all of them, not only the first 'semi-diagonal').
+
+        // 12. Write a Java program to move all 0's to the end of an array.
+        // Maintain the relative order of the other (non-zero) array elements.
