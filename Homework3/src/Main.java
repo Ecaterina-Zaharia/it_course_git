@@ -166,6 +166,34 @@ public class Main {
 
     //12. Write a program to find the 'Perfect' numbers within a given number of ranges.
 
+    Scanner reader = new Scanner(System.in);
+        System.out.println("Please, type the starting number: ");
+    int starting_number = Integer.valueOf(reader.nextLine());
+
+        System.out.println("Please, type the ending number: ");
+    int ending_number = Integer.valueOf(reader.nextLine());
+
+        System.out.println("Perfect Numbers between "+starting_number+ " and "+ ending_number);
+        for (int i = starting_number; i <= ending_number; i++){
+        if(isPerfectNumber(i)){
+            System.out.println(i+" is a perfect number");
+        }
+    }
+
+    public static boolean isPerfectNumber(int number){
+        int sum = 0;
+        for(int i=1; i<=number/2; i++){
+            if(number%i == 0){
+                sum +=i;
+            }
+        }
+        if(sum==number){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
 
 
 }
