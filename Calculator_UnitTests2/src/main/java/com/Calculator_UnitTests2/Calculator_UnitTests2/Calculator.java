@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+package com.Calculator_UnitTests2.Calculator_UnitTests2;
 
 public class Calculator {
 
@@ -39,16 +39,16 @@ public class Calculator {
         return mult;
     }
 
-    public Integer Division(){
+    public Integer Division() {
         int div = 0;
-        try{
-            if(this.secondNumber == 0){
-                throw new ArithmeticException("Division be zero is not allowed");
+        try {
+            if (this.secondNumber == 0) {
+                throw new ArithmeticException("Division by zero is not allowed");
             } else {
                 div = this.fistNumber / this.secondNumber;
 
             }
-        } catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         }
         return div;
